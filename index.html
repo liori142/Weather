@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>LM Weather</title>
+    <link rel="shortcut icon" href="/images/imgtitle.png" />
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Video Background Start -->
+      <video autoplay muted loop id="myVideo">
+      </video>
+      <!-- Video Background End -->
+
+    <div class="app-wrap">
+        <header>
+            <!-- Top NavBar Start -->
+            <div class="inputDiv" id="topNavID"></div>
+            <!-- Top NavBar End -->
+
+            <!-- Bottom NavBar Start -->
+            <nav class="navbar navbar-expand-lg navbar-dark" id="bottomNavID"></nav>
+            <!-- NavBar End -->
+        </header>
+    
+        <main id="mainIndex">
+            <div id="mainDivIndex">
+                <section class="location">
+                    <div class="city">  </div>
+                    <div class="date">  </div>
+                </section>
+                <div class="current">
+                    <div class="temp">  </div>
+                    <div class="weather">  </div>
+                    <div class="hi-low">  </div>
+                    <div class="img">  </div>
+                </div>
+            </div>
+        </main>
+
+            <!-- Footer Start-->
+    <footer id="footerId" class="page-footer font-small mt-4"></footer>
+            <!-- Footer End-->
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
