@@ -6,7 +6,7 @@ function cityChecker(){
     if(localStorage.getItem('city') != null){
         getResults(localStorage.getItem('city'));
     }else{
-        getFirstLocation('Tel aviv');
+        getResults('Tel aviv');
     }
 }
 cityChecker();
