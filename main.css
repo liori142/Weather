@@ -16,7 +16,7 @@
         display: none;
     }  
     body{
-        background-image: url('/images/bg_sunsethd.jpg');
+        background-image: url('./images/bg_sunsethd.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
