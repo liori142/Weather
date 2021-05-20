@@ -2,23 +2,22 @@ import * as lib from './functions.js';
 
 // Function that check city
 function cityChecker(){
-
     lib.createNavAndBG('images/bg5.mov');
     if(localStorage.getItem('city') != null){
         getResults(localStorage.getItem('city'));
     }else{
-        getFirstLocation();
+        getFirstLocation('Tel aviv');
     }
 }
 cityChecker();
 
 // Get first enter location
-function getFirstLocation(){
-    $.getJSON('https://geolocation-db.com/json/')
-    .done (function(location) {
-       getResults(location.city);
-    });
-}
+// function getFirstLocation(){
+//     $.getJSON('https://geolocation-db.com/json/')
+//     .done (function(location) {
+//        getResults(location.city);
+//     });
+// }
 
 // Searchbox eventlistener
 const searchBox = document.querySelector('.search-box');
