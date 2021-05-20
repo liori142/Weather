@@ -191,10 +191,10 @@ export function createFooter(){
 
     div1.classList.add('py-4', 'text-light', 'col-6', 'text-right');
     div1.id = "footerDivID2";
-    fackebook.src = '/images/facebook.svg';
-    instagram.src = '/images/instagram.svg';
-    github.src = '/images/github.svg';
-    linkedin.src = '/images/linkedin.svg';
+    fackebook.src = './images/facebook.svg';
+    instagram.src = './images/instagram.svg';
+    github.src = './images/github.svg';
+    linkedin.src = './images/linkedin.svg';
 
     div1.appendChild(fackebook);
     div1.appendChild(instagram);
